@@ -6,6 +6,7 @@
 	 <button @click="index !== undefined ? update():write()"	>{{index !==undefined ? "수정":"작성"}}</button>	 
 	</div> 
 </template>
+
 <script>
 import data from '@/data';
 export default {
